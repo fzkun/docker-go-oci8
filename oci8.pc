@@ -1,0 +1,9 @@
+prefix=/opt/instantclient
+libdir=${prefix}
+includedir=${prefix}/sdk/include/
+
+Name: OCI
+Description: oci8 library
+Libs: -L${libdir} -lclntsh
+Cflags: -I${includedir}
+Version: 18.1
