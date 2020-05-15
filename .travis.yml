@@ -1,0 +1,5 @@
+jobs:
+  include:
+    - stage: build docker image
+      script:
+        - docker build -t fzkun/go-oci8 .
